@@ -1,0 +1,1 @@
+docker run -d -p 9944:9944 -p 30303:30303 timechain-node --base-path /data --rpc-external --rpc-cors all --rpc-methods=Unsafe --ws-external
